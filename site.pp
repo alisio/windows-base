@@ -11,6 +11,7 @@ $base_packages = [
   'googlechrome',
   'hwinfo',
   # 'lastpass',
+  'libreoffice-fresh',
   'steam',
   'teamviewer',
   'transmission',
