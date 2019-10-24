@@ -1,5 +1,5 @@
 # instalar modulo chocolatey - puppet module install puppetlabs-chocolatey
-$pacotes_basicos = [
+$base_packages = [
   '7zip.install',
   'adobereader',
   'ccleaner',
@@ -16,12 +16,12 @@ $pacotes_basicos = [
   'transmission',
   'vlc',
 ]
-$pacotes_sysadmin_dev = ['atom', 'docker','evernote','git','rufus','wireshark','vagrant','virtualbox']
-$pacotes_multimidia = ['audacity','gimp','handbrake.install','inkscape']
+$sysadmin_dev_packages = ['atom', 'docker','evernote','git','rufus','wireshark','vagrant','virtualbox']
+$content_creation_packages = ['audacity','gimp','handbrake.install','inkscape']
 node default {
   include chocolatey
   Package { provider => chocolatey, }
-  package { [$pacotes_basicos]:
+  package { [$base_packages]:
     ensure   => latest,
   }
 }
