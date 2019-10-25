@@ -21,8 +21,10 @@ $sysadmin_dev_packages = ['atom', 'docker','evernote','git','rufus','wireshark',
 $content_creation_packages = ['audacity','gimp','handbrake.install','inkscape']
 node default {
   include chocolatey
-  Package { provider => chocolatey, }
-  package { [$base_packages]:
-    ensure   => latest,
+  Package { provider => chocolatey, ensure   => latest,}
+  package { [$base_packages]:}
+  # remove comment from the following lines if you whant puppet to install the following packages
+  # package { [$sysadmin_dev_packages]:}
+  # package { [$content_creation_packages]:}
   }
 }
