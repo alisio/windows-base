@@ -8,6 +8,8 @@ This manifest was tested using Windows 10 with puppet 5, but should work fine wi
 
 ## Setup
 
+The setup instructions here are meant for serverless scenarios but also can be used in client-server installations.
+
 ### Setup requirements
 
 * puppet-agent 5 - Download and Install Puppet agent 5 from puppetlabs repository at https://downloads.puppetlabs.com/windows/puppet5/)
@@ -26,6 +28,7 @@ This manifest was tested using Windows 10 with puppet 5, but should work fine wi
 
 Commands:
 ```
+
 git clone https://github.com/alisio/windows-base.git
 cd windows-base
 puppet module install puppetlabs-chocolatey
@@ -33,6 +36,9 @@ puppet apply site.pp
 ```
 
 ## Limitations
+
+The instructions here are meant for serverless scenario but also can be used in client-server installations.
+
 
 This module has been tested on:
 
