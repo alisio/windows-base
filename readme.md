@@ -24,11 +24,11 @@ The setup instructions here are meant for serverless scenarios but also can be u
 1. download this manifest
 1. Lanch a terminal windows with admin priviledges
 1. cd into this repository folder
-1. run puppet agent with the following command
+1. install required puppetlabs-chocolatey module
+1. run puppet agent
 
 Commands:
 ```
-
 git clone https://github.com/alisio/windows-base.git
 cd windows-base
 puppet module install puppetlabs-chocolatey
