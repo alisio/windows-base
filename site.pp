@@ -5,7 +5,6 @@ $base_packages = [
   'ccleaner',
   'directx',
   'dropbox',
-  'atom',
   'firefox',
   'geforce-experience',
   'googlechrome',
