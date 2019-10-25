@@ -26,5 +26,4 @@ node default {
   # remove comment from the following lines if you whant puppet to install the following packages
   # package { [$sysadmin_dev_packages]:}
   # package { [$content_creation_packages]:}
-  }
 }
