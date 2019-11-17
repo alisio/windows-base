@@ -1,11 +1,12 @@
 # instalar modulo chocolatey - puppet module install puppetlabs-chocolatey
 $base_packages = [
   '7zip.install',
-  'adobereader',
+  #'adobereader',
   'ccleaner',
   'directx',
   'dropbox',
   'firefox',
+  'FoxitReader',
   'geforce-experience',
   'googlechrome',
   'hwinfo',
@@ -15,6 +16,7 @@ $base_packages = [
   'teamviewer',
   'transmission',
   'vlc',
+  'windirstat',
 ]
 $sysadmin_dev_packages = ['atom', 'docker','evernote','git','rufus','wireshark','vagrant','virtualbox']
 $content_creation_packages = ['audacity','gimp','handbrake.install','inkscape']
