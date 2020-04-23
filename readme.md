@@ -12,10 +12,10 @@ The setup instructions here are meant for serverless scenarios but also can be u
 
 ### Setup requirements
 
-* puppet-agent 5 - Download and Install Puppet agent 5 from puppetlabs repository at https://downloads.puppetlabs.com/windows/puppet5/)
+* puppet-agent 5 - Download and Install Puppet agent 5 from [puppetlabs repository](https://downloads.puppetlabs.com/windows/puppet5/puppet-agent-x64-latest.msi)
 * puppetlabs-chocolatey module - Install using puppet module install command
 
-* git - Download and install git for windows from github repository at https://github.com/git-for-windows/git/releases/latest
+* git - Download and install git for windows from github repository from [git](https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe)
 
 
 
