@@ -4,27 +4,29 @@ $base_packages = [
   #'adobereader',
   'ccleaner',
   'directx',
+  'ditto',
   'dropbox',
   'firefox',
   'FoxitReader',
   'geforce-experience',
   'googlechrome',
   'hwinfo',
-  # 'lastpass',
+  'IrfanView',
+  'lastpass',
   'libreoffice-fresh',
+  'notepadplusplus',
   'steam',
   'teamviewer',
   'transmission',
   'vlc',
   'windirstat',
 ]
-$sysadmin_dev_packages = ['atom', 'docker','evernote','git','rufus','wireshark','vagrant','virtualbox']
-$content_creation_packages = ['audacity','gimp','handbrake.install','inkscape']
+$sysadmin_dev_packages = ['atom', 'docker','evernote','git','microsoft-windows-terminal','rufus','wireshark','vagrant','virtualbox']
+$content_creation_packages = ['audacity','gimp','handbrake.install','inkscape','obs','obs-virtualcam']
 node default {
   include chocolatey
   Package { provider => chocolatey, ensure   => latest,}
   package { [$base_packages]:}
-  # remove comment from the following lines if you whant puppet to install the following packages
-  # package { [$sysadmin_dev_packages]:}
-  # package { [$content_creation_packages]:}
+  package { [$sysadmin_dev_packages]:}
+  package { [$content_creation_packages]:}
 }
