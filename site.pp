@@ -21,7 +21,9 @@ $base_packages = [
   'vlc',
   'windirstat',
 ]
-$sysadmin_dev_packages = ['atom', 'docker','evernote','git','microsoft-windows-terminal','rufus','wireshark','vagrant','vim','virtualbox']
+$sysadmin_dev_packages = ['atom','docker-cli','docker-compose','docker-desktop',
+                          'evernote','git','hfsexplorer','microsoft-windows-terminal',
+                          'rufus','wireshark','vagrant','vim','virtualbox']
 $content_creation_packages = ['audacity','gimp','handbrake.install','inkscape','obs','obs-virtualcam']
 node default {
   include chocolatey
