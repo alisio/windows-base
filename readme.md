@@ -21,14 +21,19 @@ The setup instructions here are meant for serverless scenarios but also can be u
 
 ## Usage
 
-1. download this manifest
-1. Lanch a terminal windows with admin priviledges
-1. cd into this repository folder
-1. install required puppetlabs-chocolatey module
-1. run puppet agent
+1. Lanuch a terminal window with admin priviledges
+1. install chocolatey
+1. install *git* and *puppet*
+2. clone this repo
+3. cd into this repository folder
+4. install required puppetlabs-chocolatey module
+5. apply manifest using puppet agent
 
-Commands:
-```
+
+ 
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install -y git puppet
 git clone https://github.com/alisio/windows-base.git
 cd windows-base
 puppet module install puppetlabs-chocolatey
