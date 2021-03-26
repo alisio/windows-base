@@ -12,7 +12,7 @@ $base_packages = [
   'googlechrome',
   'hwinfo',
   'IrfanView',
-  'lastpass',
+  'bitwarden',
   'libreoffice-fresh',
   'notepadplusplus',
   'steam',
