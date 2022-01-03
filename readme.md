@@ -23,7 +23,7 @@ The setup instructions here are meant for serverless scenarios but also can be u
 
 1. Lanuch a terminal window with admin priviledges
 1. install chocolatey
-1. install *git* and *puppet*
+1. install *git* and *puppet-agent*
 2. clone this repo
 3. cd into this repository folder
 4. install required puppetlabs-chocolatey module
