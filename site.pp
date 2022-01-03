@@ -23,7 +23,7 @@ $base_packages = [
 ]
 $sysadmin_dev_packages = ['atom','docker-cli','docker-compose','docker-desktop',
                           'evernote','git','hfsexplorer','microsoft-windows-terminal',
-                          'rufus','wireshark','vagrant','vim','virtualbox']
+                          'rufus','wireshark','vagrant','vim','virtualbox','wsl2']
 $content_creation_packages = ['audacity','gimp','handbrake.install','inkscape','obs','obs-virtualcam']
 node default {
   include chocolatey
