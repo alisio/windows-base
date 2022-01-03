@@ -11,6 +11,7 @@ $base_packages = [
   # 'geforce-experience',
   'googlechrome',
   'hwinfo',
+  'microsoft-teams',
   'IrfanView',
   'bitwarden',
   'libreoffice-fresh',
