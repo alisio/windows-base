@@ -2,6 +2,7 @@
 $base_packages = [
   '7zip.install',
   #'adobereader',
+  'autohotkey',
   'ccleaner',
   # 'directx',
   'ditto',
