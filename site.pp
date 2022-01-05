@@ -21,6 +21,7 @@ $base_packages = [
   'teamviewer',
   'transmission',
   'vlc',
+  'vcredist2013',
   'windirstat',
 ]
 $sysadmin_dev_packages = ['atom','docker-cli','docker-compose','docker-desktop',
