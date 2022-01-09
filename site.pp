@@ -23,6 +23,7 @@ $base_packages = [
   'vlc',
   'vcredist2013',
   'windirstat',
+  'wsl2',
 ]
 $sysadmin_dev_packages = ['atom','docker-cli','docker-compose','docker-desktop',
                           'evernote','git','hfsexplorer','microsoft-windows-terminal',
