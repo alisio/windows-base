@@ -28,7 +28,8 @@ The setup instructions here are meant for serverless scenarios but also can be u
 3. clone this repo
 4. cd into this repository folder
 5. install required puppetlabs-chocolatey module
-6. apply manifest using puppet agent
+6. close and open PowerShell so puppet can be found in path
+7. apply manifest using puppet agent
 
 
  
@@ -38,6 +39,7 @@ choco install -y git puppet-agent
 cd ~\Downloads
 git clone https://github.com/alisio/windows-base.git
 cd windows-base
+# close and open PowerShell so puppet can be found in path
 puppet module install puppetlabs-chocolatey
 puppet apply site.pp
 ```
