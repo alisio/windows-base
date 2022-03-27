@@ -44,6 +44,12 @@ puppet module install puppetlabs-chocolatey
 puppet apply site.pp
 ```
 
+Optionally you can install Chris Titus Debloat Script with the following PowerShell Command:
+
+```
+iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/JJ8R4'))
+```
+
 ## Limitations
 
 The instructions here are meant for serverless scenario but also can be used in client-server installations.
