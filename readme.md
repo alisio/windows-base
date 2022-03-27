@@ -21,13 +21,14 @@ The setup instructions here are meant for serverless scenarios but also can be u
 
 ## Usage
 
-1. Lanuch a terminal window with admin priviledges
+1. Lanuch a PowerShell terminal window with admin priviledges
 1. install chocolatey
 1. install *git* and *puppet-agent*
-2. clone this repo
-3. cd into this repository folder
-4. install required puppetlabs-chocolatey module
-5. apply manifest using puppet agent
+2. cd ~\Downloads
+3. clone this repo
+4. cd into this repository folder
+5. install required puppetlabs-chocolatey module
+6. apply manifest using puppet agent
 
 
  
