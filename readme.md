@@ -47,7 +47,7 @@ puppet apply site.pp
 Optionally you can install Chris Titus Debloat Script with the following PowerShell Command:
 
 ```
-iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/JJ8R4'))
+iwr -useb https://christitus.com/win | iex
 ```
 
 ## Limitations
