@@ -2,6 +2,7 @@
 $base_packages = [
   '7zip.install',
   #'adobereader',
+  'anydesk.install'
   'autohotkey',
   'ccleaner',
   # 'directx',
@@ -18,10 +19,10 @@ $base_packages = [
   'libreoffice-fresh',
   'notepadplusplus',
   'steam',
-  'teamviewer',
   'transmission',
   'vlc',
   'vcredist2013',
+  'vscode'
   'windirstat',
 ]
 $sysadmin_dev_packages = ['atom','docker-cli','docker-compose','docker-desktop',
