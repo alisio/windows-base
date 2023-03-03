@@ -2,7 +2,7 @@
 $base_packages = [
   '7zip.install',
   #'adobereader',
-  'anydesk.install'
+  'anydesk.install',
   'autohotkey',
   'ccleaner',
   # 'directx',
