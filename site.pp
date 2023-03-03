@@ -22,7 +22,7 @@ $base_packages = [
   'transmission',
   'vlc',
   'vcredist2013',
-  'vscode'
+  'vscode',
   'windirstat',
 ]
 $sysadmin_dev_packages = ['atom','docker-cli','docker-compose','docker-desktop',
