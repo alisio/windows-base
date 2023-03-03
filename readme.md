@@ -32,9 +32,12 @@ The setup instructions here are meant for serverless scenarios but also can be u
 7. apply manifest using puppet agent
 
 
- 
+ ```powershell
+ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+ ```
+
+
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 choco install -y git puppet-agent
 cd ~\Downloads
 git clone https://github.com/alisio/windows-base.git
